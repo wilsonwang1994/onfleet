@@ -1,4 +1,5 @@
 -- Q1
+
 SELECT Name
 FROM Salesperson
 WHERE ID IN (
@@ -12,6 +13,7 @@ WHERE ID IN (
 );
 
 -- Q2
+
 SELECT Name
 FROM Salesperson
 WHERE ID IN (
@@ -22,11 +24,13 @@ WHERE ID IN (
 );
 
 -- Q3
+
 SELECT Name, Age
 FROM Salesperson
 WHERE Salary >= 100000;
 
 -- Q4
+
 SELECT MIN(order_date)
 FROM Orders
 WHERE cust_id = (
@@ -44,10 +48,13 @@ WHERE cust_id = (
 );
 
 -- Q1
+
 db.driver.find({"lastSeen":{ $gte:ISODate("2018-11-27"), $lt:ISODate("2018-12-27")}}).pretty();
 
 -- Q2
+
 db.driver.find({name:{$regex:'^(?i)j(?-i)ohnny '}});
 
 -- Q3
+
 db.driver.find({"vehicleData.make":"Toyota"}).pretty();
