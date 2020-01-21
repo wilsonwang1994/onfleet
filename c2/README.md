@@ -5,3 +5,5 @@ the  sentence is at the beginning of the day which is 00:00, the day I was born
 would be 11,575 days ago. So, if today is Monday, 11,575 days ago would
 be (11,575 = 1,653 x 7 + 4) Thursday.
 
+b) 
+
