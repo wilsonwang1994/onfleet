@@ -1,3 +1,5 @@
+-- Section 1 - Relational Database
+
 -- Q1
 
 SELECT Name
@@ -46,6 +48,9 @@ WHERE cust_id = (
   FROM Customer
   WHERE Name = "Samony"
 );
+
+
+-- Section 2 - Non relational Database
 
 -- Q1
 
